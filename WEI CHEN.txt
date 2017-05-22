@@ -1,0 +1,39 @@
+Nom: WEI
+Prenom: Chen
+
+Question 1a:
+With Microsoft Edge, we can only see the text shown in the page by viewing source, but by inspecting element we can see the html codes for constructing this page.
+
+Question 1b:
+We can simply put the tags <em> and </em> between the words we want to emphasize.
+HTML is a markup language, and the markup tags are used to create and modify elements in HTML.
+
+Question 1c:
+When using the tag <title>, the text we input is displayed in the page tag of the browser.
+The general structure of a HTML page can be described as a DOM tree, which is composed by hierarchical elements, and each elements contain its attributes and texts. Basically a HTML contains a head element which defines the title of the page, and a body element which defines all what will be shown on the page.
+
+Question 1d:
+The nav tag is usually used to create a navigation bar in a page. It may link to an exterior web page or other part of the same page.
+
+Question 1e:
+Please refer to the file "exercice 1e.svg". The svg editor provided by "https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html" has been used.
+
+Question 1f:
+For example, omitting </nav> wont make any difference in my HTML file. But forgetting </em> will cause a problem by making all the text after <em> emphasized. (We prove this case in the file ¡°exercice 1f.htlm¡±) Other unknown problems may occur if forgetting the closing tag, so it is highly recommended not to omit the closing tag in standard HTML.
+
+Question 2a:
+There are 3 ways to create the CSS style list. For question 2a, we use inline stylesheet to define the CSS style. This is an example of inline stylesheet below:
+
+Question 2b:
+We move the stylesheet into an element called internal stylesheet. Within internal stylesheet we should select the element by its id named before. Also an example is given here:
+<head>
+< style>
+#hr {color:sienna;}
+#p {margin-left:20px;}
+#body {background-image:url("images/back40.gif");}
+< /style>
+< /head>
+The internal stylesheet is prefered rather than inline stylesheet when there is not an only CSS style to manage. We put them in an element to make it easier to find and manage.
+
+Question 2c:
+When we want to apply a CSS stylesheet to a number of pages, the external stylesheet will be a better choice. Because in this way, we can change the style of a series of pages on our website only by modifying a single stylesheet file, which is obviously more efficient.
